@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.animallistback">
+    <TableView id="animalTable" fx:id="animalTable" layoutX="6.0" layoutY="14.0" prefHeight="498.0" prefWidth="747.0">
+      <columns>
+          <TableColumn fx:id="idColumn" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="nameColumn" prefWidth="75.0" text="name" />
+          <TableColumn fx:id="ageColumn" prefWidth="75.0" text="age" />
+          <TableColumn fx:id="speciesColumn" prefWidth="75.0" text="species" />
+          <TableColumn fx:id="adoption_statusColumn" prefWidth="75.0" text="adoption_status" />
+          <TableColumn fx:id="descriptionColumn" prefWidth="75.0" text="description" />
+          <TableColumn fx:id="imageColumn" prefWidth="75.0" text="image" />
+          <TableColumn fx:id="UpdateColumn" prefWidth="75.0" text="Update" />
+          <TableColumn fx:id="DeleteColumn" prefWidth="75.0" text="Delete" />
+      </columns>
+    </TableView>
+</AnchorPane>
