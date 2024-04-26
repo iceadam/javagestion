@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="landforlife.tn.controllers.demandetable">
+
+    <TableView fx:id="demandeTable" layoutX="30.0" layoutY="30.0" prefHeight="340.0" prefWidth="540.0">
+        <columns>
+            <TableColumn fx:id="idColumn" prefWidth="50" text="ID">
+                <cellValueFactory>
+                    <PropertyValueFactory />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="animal_idColumn" prefWidth="100" text="Animal ID">
+                <cellValueFactory>
+                    <PropertyValueFactory property="animal_id" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="user_idColumn" prefWidth="100" text="User ID">
+                <cellValueFactory>
+                    <PropertyValueFactory property="user_id" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="sujetColumn" prefWidth="150" text="Sujet">
+                <cellValueFactory>
+                    <PropertyValueFactory property="sujet" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="detailsColumn" prefWidth="150" text="Details">
+                <cellValueFactory>
+                    <PropertyValueFactory property="details" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+
+
+</AnchorPane>

@@ -14,7 +14,7 @@ import java.util.List;
 
 public class animalservice implements Ainterface<animal> {
     // Connection object
-    private Connection cnx = MaConnection.getInstance().getCnx();
+    private final Connection cnx = MaConnection.getInstance().getCnx();
 
     @Override
     public void add(animal Animal) {

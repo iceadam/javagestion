@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="landforlife.tn.controllers.backcontroller"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <VBox alignment="CENTER" spacing="20">
+        <Button text="Animal List" onAction="#showAnimalList"/>
+        <Button text="Demande Table" onAction="#showDemandeTable"/>
+        <Button text="add an animal" onAction="#addanimal"/>
+    </VBox>
+
+</AnchorPane>

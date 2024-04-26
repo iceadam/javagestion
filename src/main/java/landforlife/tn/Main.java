@@ -12,7 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         // Load the FXML file
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/animallistback.fxml")));
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/backinterface.fxml")));
 
         // Create a scene with the loaded FXML file
         Scene scene = new Scene(root, 1000, 800);

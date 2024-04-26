@@ -5,7 +5,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.addanimal">
+<AnchorPane prefHeight="400.0" prefWidth="600.0"  xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="landforlife.tn.controllers.addanimal">
    <children>
       <TextField fx:id="nameF" layoutX="54.0" layoutY="74.0" promptText="name" />
       <TextField fx:id="ageF" layoutX="54.0" layoutY="123.0" promptText="age" />
